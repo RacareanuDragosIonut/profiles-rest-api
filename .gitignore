@@ -131,6 +131,9 @@ dmypy.json
 
 ### Vagrant Patch ###
 *.box
+### Profiles_project ###
+profiles_project/settings.py
+
 
 # End of https://www.gitignore.io/api/python,vagrant
 eb-package.zip
