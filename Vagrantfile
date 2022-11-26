@@ -18,6 +18,8 @@ config.vm.box_download_insecure = true
  config.vm.network "forwarded_port", guest: 8000, host: 8000
 
 
+ config.winrm.timeout = 1500
+ config.vm.boot_timeout = 1500
  config.vm.provision "shell", inline: <<-SHELL
    systemctl disable apt-daily.service
    systemctl disable apt-daily.timer

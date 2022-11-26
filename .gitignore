@@ -126,13 +126,14 @@ dmypy.json
 # General
 .vagrant/
 
+### Django Credentials ###
+profiles_project/.env
+
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.logs
 
 ### Vagrant Patch ###
 *.box
-### Profiles_project ###
-profiles_project/settings.py
 
 
 # End of https://www.gitignore.io/api/python,vagrant
